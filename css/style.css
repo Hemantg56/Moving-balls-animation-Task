@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 560px;
+    width: 900px;
+    background-color: black;
+    padding: 20px 0 0 10px;
+    position: relative;
+}
+
+.main .b1 {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    animation: hem 4s infinite;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.main .a {
+    background-color: red;
+    animation: dev 3s infinite;
+    top: 110px;
+    left: 10px;
+}
+
+.main .b {
+    background-color: blue;
+    animation: par 2s infinite;
+    top: 200px;
+    left: 10px;
+}
+
+.main .c {
+    background-color: chartreuse;
+    animation: har 1s infinite;
+    top: 290px;
+    left: 10px;
+}
+
+.main .d {
+    background-color: cyan;
+    animation: rit 6s infinite;
+    top: 380px;
+    left: 10px;
+}
+
+.main .e {
+    background-color: deeppink;
+    animation: mit 7s infinite;
+    top: 470px;
+    left: 10px;
+}
